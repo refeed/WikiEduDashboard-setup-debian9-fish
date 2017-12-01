@@ -1,0 +1,715 @@
+refeedmain@RHCOMP ~/G/WikiEduDashboard> gulp build ; rspec ; yarn test
+[14:23:17] Failed to load external module @babel/register
+[14:23:17] Requiring external module babel-register
+[14:23:17] Using gulpfile ~/GitHub/WikiEduDashboard/gulpfile.babel.js
+[14:23:17] Starting 'build'...
+[14:23:17] Starting 'clean'...
+[14:23:17] Finished 'clean' after 31 ms
+[14:23:17] Starting 'i18n'...
+[14:23:17] Starting 'copy-static'...
+[14:23:17] Starting 'copy-images'...
+[14:23:17] Starting 'copy-fonts'...
+[14:23:17] Starting 'bower'...
+[14:23:17] Starting 'stylesheets'...
+[14:23:18] Starting 'lintjs'...
+[14:23:21] Finished 'copy-fonts' after 3.64 s
+[14:23:21] Finished 'stylesheets' after 3.68 s
+[14:23:21] Finished 'bower' after 3.86 s
+[14:23:24] Finished 'copy-images' after 6.39 s
+[14:23:24] Finished 'copy-static' after 6.4 s
+[14:23:29] Finished 'lintjs' after 11 s
+[14:23:31] Finished 'i18n' after 13 s
+[14:23:31] Starting 'bower'...
+[14:23:31] Finished 'bower' after 18 ms
+[14:23:31] Starting 'webpack'...
+[14:24:06] [webpack-dev-server] Hash: f73f35d3835487c60fe1
+Version: webpack 3.8.1
+Time: 34803ms
+                                 Asset       Size  Chunks                    Chunk Names
+          main.f73f35d3835487c60fe1.js    1.43 MB       0  [emitted]  [big]  main
+    styleguide.f73f35d3835487c60fe1.js     282 kB       1  [emitted]  [big]  styleguide
+survey_results.f73f35d3835487c60fe1.js     213 kB       2  [emitted]         survey_results
+  survey_admin.f73f35d3835487c60fe1.js     245 kB       3  [emitted]         survey_admin
+        survey.f73f35d3835487c60fe1.js     180 kB       4  [emitted]         survey
+         raven.f73f35d3835487c60fe1.js      30 kB       5  [emitted]         raven
+     campaigns.f73f35d3835487c60fe1.js    2.74 kB       6  [emitted]         campaigns
+                     rev-manifest.json  381 bytes          [emitted]         
+ [703] multi ./app/assets/javascripts/main.js 28 bytes {0} [built]
+ [704] ./app/assets/javascripts/main.js 932 bytes {0} [built]
+[1248] multi ./app/assets/javascripts/raven.js 28 bytes {5} [built]
+[1249] ./app/assets/javascripts/raven.js 50 bytes {5} [built]
+[1256] multi ./app/assets/javascripts/styleguide/styleguide.jsx 28 bytes {1} [built]
+[1257] ./app/assets/javascripts/styleguide/styleguide.jsx 4.46 kB {1} [built]
+[1258] multi ./app/assets/javascripts/surveys/survey.js 28 bytes {4} [built]
+[1259] ./app/assets/javascripts/surveys/survey.js 251 bytes {4} [built]
+[1279] multi ./app/assets/javascripts/surveys/survey-admin.js 28 bytes {3} [built]
+[1280] ./app/assets/javascripts/surveys/survey-admin.js 484 bytes {3} [built]
+[1281] ./app/assets/javascripts/surveys/modules/SurveyAdmin.js 15.5 kB {3} [built]
+[1295] multi ./app/assets/javascripts/surveys/survey-results.jsx 28 bytes {2} [built]
+[1296] ./app/assets/javascripts/surveys/survey-results.jsx 629 bytes {2} [built]
+[1301] multi ./app/assets/javascripts/campaigns.js 28 bytes {6} [built]
+[1302] ./app/assets/javascripts/campaigns.js 3.35 kB {6} [built]
+    + 1288 hidden modules
+[14:24:06] Finished 'webpack' after 35 s
+[14:24:06] Starting 'minify'...
+[14:24:13] Finished 'minify' after 7.94 s
+[14:24:13] Finished 'build' after 56 s
+Run options: include {:focus=>true}
+
+All examples were filtered out; ignoring {:focus=>true}
+........................................................................................................................................................................................................................................................................................................F  HTML screenshot: file:///home/refeedmain/GitHub/WikiEduDashboard/tmp/screenshots/screenshot_2017-12-01-14-26-12.317.html
+  Image screenshot: file:///home/refeedmain/GitHub/WikiEduDashboard/tmp/screenshots/screenshot_2017-12-01-14-26-12.317.png
+PASSED
+*.PASSED
+*.............................F  HTML screenshot: file:///home/refeedmain/GitHub/WikiEduDashboard/tmp/screenshots/screenshot_2017-12-01-14-29-38.914.html
+  Image screenshot: file:///home/refeedmain/GitHub/WikiEduDashboard/tmp/screenshots/screenshot_2017-12-01-14-29-38.914.png
+..........F  HTML screenshot: file:///home/refeedmain/GitHub/WikiEduDashboard/tmp/screenshots/screenshot_2017-12-01-14-32-11.768.html
+  Image screenshot: file:///home/refeedmain/GitHub/WikiEduDashboard/tmp/screenshots/screenshot_2017-12-01-14-32-11.768.png
+..................................................User not added: Sorry, NotARealUser is not an existing user.
+..PASSED
+*PASSED
+*.........PASSED
+*................PASSED
+*.....PASSED
+*....PASSED
+*...........PASSED
+*.............................F  HTML screenshot: file:///home/refeedmain/GitHub/WikiEduDashboard/tmp/screenshots/screenshot_2017-12-01-14-49-26.326.html
+  Image screenshot: file:///home/refeedmain/GitHub/WikiEduDashboard/tmp/screenshots/screenshot_2017-12-01-14-49-26.326.png
+.......................................................................................................................................................................[2017-12-01 14:52:08.446 INFO ] Constant update tasks are beginning.
+[2017-12-01 14:52:08.472 INFO ] Constant update finished. Time: less than a minute.
+.[2017-12-01 14:52:08.555 INFO ] Daily update tasks are beginning.
+[2017-12-01 14:52:08.558 INFO ] Daily update finished. Time: less than a minute.
+.[2017-12-01 14:52:08.611 INFO ] Daily update tasks are beginning.
+[2017-12-01 14:52:08.613 INFO ] Daily update failed. Time: less than a minute.
+...[2017-12-01 14:52:08.826 WARN ] tmp/batch_update_constantly.pid appears to be running.
+[2017-12-01 14:52:08.826 WARN ] Process 123456789 not found. Deleting tmp/batch_update_constantly.pid.
+.[2017-12-01 14:52:08.885 INFO ] Survey update starting.
+[2017-12-01 14:52:08.894 INFO ] Survey update finished. Time: less than a minute.
+.[2017-12-01 14:52:09.133 INFO ] Survey update starting.
+[2017-12-01 14:52:09.553 INFO ] Survey update finished. Time: less than a minute.
+.[2017-12-01 14:52:09.725 INFO ] Survey update starting.
+[2017-12-01 14:52:10.969 INFO ] Survey update finished. Time: less than a minute.
+.[2017-12-01 14:52:10.323 INFO ] Survey update starting.
+[2017-12-01 14:52:10.691 INFO ] Survey update finished. Time: less than a minute.
+.[2017-12-01 14:52:10.836 INFO ] Survey update starting.
+[2017-12-01 14:52:11.210 INFO ] Survey update finished. Time: less than a minute.
+[2017-12-01 14:52:11.213 INFO ] Survey update starting.
+[2017-12-01 14:52:11.252 INFO ] Survey update finished. Time: less than a minute.
+.[2017-12-01 14:52:11.403 INFO ] Survey update starting.
+[2017-12-01 14:52:11.763 INFO ] Survey update finished. Time: less than a minute.
+[2017-12-01 14:52:11.766 INFO ] Survey update starting.
+[2017-12-01 14:52:11.802 INFO ] Survey update errored Time: less than a minute.
+.[2017-12-01 14:52:11.878 INFO ] Views update task is beginning.
+[2017-12-01 14:52:11.878 INFO ] Views update finished. Time: less than a minute.
+.[2017-12-01 14:52:11.956 INFO ] Views update task is beginning.
+[2017-12-01 14:52:11.957 INFO ] Views update failed. Time: less than a minute.
+.................PASSED
+*...........[2017-12-01 14:53:08.796 WARN ] Caught unknown API error (000)
+....PASSED
+*...........................................[2017-12-01 14:55:16.457 ERROR] replica.rb revisions.php query failed after 3 tries: Connection timed out - Exception from WebMock
+.[2017-12-01 14:55:16.533 ERROR] replica.rb revisions.php query failed after 3 tries: Connection refused - Exception from WebMock
+...............................................................[2017-12-01 14:55:30.120 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:30.533 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:30.932 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:30.942 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:30.954 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:30.971 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.499 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.147 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.131 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.132 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.163 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.173 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.173 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.174 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.192 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.192 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.194 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.201 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.212 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.233 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.292 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.293 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.303 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.329 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.348 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.348 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.349 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.358 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.373 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:31.430 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:34.755 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:34.773 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:34.856 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:34.856 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:35.578 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:35.589 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:35.601 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:35.756 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:35.795 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:35.814 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:35.829 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:35.988 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:35.998 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:36.163 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:36.366 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:36.465 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:36.484 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:36.491 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:36.617 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:36.850 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:36.969 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:36.243 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:36.285 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:36.297 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:36.315 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:36.391 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:36.392 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:36.393 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:36.394 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:36.415 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:38.435 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:38.551 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:38.974 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:38.975 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:38.999 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:39.129 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:39.257 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:39.384 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:39.561 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:39.257 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:39.731 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+[2017-12-01 14:55:39.821 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+.[2017-12-01 14:55:40.327 WARN ] Caught The "mgsgroup" parameter must be set. (nomgsgroup)
+.........................................................[2017-12-01 14:56:28.641 ERROR] Caught 765: unexpected token at '<xml_is_great>Wat?</xml_is_great>'
+...[2017-12-01 14:56:28.765 WARN ] Caught unknown API error (000)
+..............................................................[2017-12-01 14:57:23.566 ERROR] A request to the wikimedia.org/api/rest_v1 API has timed out and will retried 2 times.
+[2017-12-01 14:57:23.570 ERROR] A request to the wikimedia.org/api/rest_v1 API has timed out and will retried 1 times.
+[2017-12-01 14:57:23.574 ERROR] A request to the wikimedia.org/api/rest_v1 API has timed out and will retried 0 times.
+.[2017-12-01 14:57:23.643 ERROR] Wikimedia REST API error: Exception from WebMock
+........................................................[2017-12-01 14:57:46.950 INFO ] Created campaign fall_2014.
+[2017-12-01 14:57:46.955 INFO ] Created campaign spring_2015.
+......................................................................................*......................................................................................................................
+
+Pending: (Failures listed here are expected and do not affect your suite's status)
+
+  1) Admin users removing all campaigns from a course returns it to "submitted" status
+     # This sometimes fails on travis.
+     Failure/Error: raise 'this test passed — this time'
+     
+     RuntimeError:
+       this test passed — this time
+     # ./spec/features/admin_role_spec.rb:123:in `block (3 levels) in <top (required)>'
+
+  2) Admin users linking a course to its Salesforce record makes the Link to Salesforce button appear
+     # This sometimes fails on travis.
+     Failure/Error: raise 'this test passed — this time'
+     
+     RuntimeError:
+       this test passed — this time
+     # ./spec/features/admin_role_spec.rb:179:in `block (3 levels) in <top (required)>'
+
+  3) Instructor users visiting the students page should be able to assign articles
+     # This sometimes fails on travis.
+     Failure/Error: raise 'this test passed — this time'
+     
+     RuntimeError:
+       this test passed — this time
+     # ./spec/features/instructor_role_spec.rb:168:in `block (3 levels) in <top (required)>'
+
+  4) Instructor users visiting the students page should be able to remove students from the course
+     # This sometimes fails on travis.
+     Failure/Error: raise 'this test passed — this time'
+     
+     RuntimeError:
+       this test passed — this time
+     # ./spec/features/instructor_role_spec.rb:183:in `block (3 levels) in <top (required)>'
+
+  5) multiwiki assignments creates a valid assignment from an article and an alternative project and language
+     # This sometimes fails on travis.
+     Failure/Error: raise 'this test passed — this time'
+     
+     RuntimeError:
+       this test passed — this time
+     # ./spec/features/multiwiki_assignment_spec.rb:71:in `block (2 levels) in <top (required)>'
+
+  6) Student users clicking log out logs them out
+     # This sometimes fails on travis.
+     Failure/Error: raise 'this test passed — this time'
+     
+     RuntimeError:
+       this test passed — this time
+     # ./spec/features/student_role_spec.rb:62:in `block (3 levels) in <top (required)>'
+
+  7) Student users visiting the ?enroll=passcode url works even if a student has never logged in before
+     # This sometimes fails on travis.
+     Failure/Error: raise 'this test passed — this time'
+     
+     RuntimeError:
+       this test passed — this time
+     # ./spec/features/student_role_spec.rb:195:in `block (3 levels) in <top (required)>'
+
+  8) Student users clicking remove for an assigned article removes the assignment
+     # This sometimes fails on travis.
+     Failure/Error: raise 'this test passed — this time'
+     
+     RuntimeError:
+       this test passed — this time
+     # ./spec/features/student_role_spec.rb:310:in `block (3 levels) in <top (required)>'
+
+  9) Surveys Instructor takes survey navigates correctly between each question and submits
+     # This sometimes fails on travis.
+     Failure/Error: raise 'this test passed — this time'
+     
+     RuntimeError:
+       this test passed — this time
+     # ./spec/features/surveys_spec.rb:287:in `block (3 levels) in <top (required)>'
+
+  10) CategoryImporter imports subcategories recursively
+      # This sometimes fails on travis for database timeout reasons.
+      Failure/Error: raise 'this test passed — this time'
+      
+      RuntimeError:
+        this test passed — this time
+      # ./spec/lib/importers/category_importer_spec.rb:35:in `block (3 levels) in <top (required)>'
+      # /home/refeedmain/.rvm/gems/ruby-2.3.1/gems/vcr-3.0.3/lib/vcr/util/variable_args_block_caller.rb:9:in `call_block'
+      # /home/refeedmain/.rvm/gems/ruby-2.3.1/gems/vcr-3.0.3/lib/vcr.rb:189:in `use_cassette'
+      # ./spec/lib/importers/category_importer_spec.rb:24:in `block (2 levels) in <top (required)>'
+
+  11) RevisionScoreImporter saves wp10 scores and features for revisions
+      # This may fail if the ORES api is having trouble.
+      Failure/Error: raise 'this test passed — this time'
+      
+      RuntimeError:
+        this test passed — this time
+      # ./spec/lib/importers/revision_score_importer_spec.rb:61:in `block (2 levels) in <top (required)>'
+
+  12) Setting add some examples to (or delete) /home/refeedmain/GitHub/WikiEduDashboard/spec/models/setting_spec.rb
+     # Not yet implemented
+     # ./spec/models/setting_spec.rb:17
+
+
+Failures:
+
+  1) Admin users adding a course to a campaign should make the course live
+     Failure/Error: expect(campaign_options[0]).to have_text Campaign.find(2).title
+       expected to find text "Spring 2016" in ""
+     # ./spec/features/admin_role_spec.rb:82:in `block (3 levels) in <top (required)>'
+
+  2) New course creation and editing course workflow should allow the user to create a course
+     Failure/Error: expect(start_input.to_date).to eq(start_date.to_date)
+     
+       expected: Thu, 01 Jan 2015
+            got: Tue, 30 Dec 2014
+     
+       (compared using ==)
+     
+       Diff:
+       @@ -1,2 +1,2 @@
+       -Thu, 01 Jan 2015
+       +Tue, 30 Dec 2014
+       
+     # ./spec/features/course_creation_spec.rb:166:in `block (3 levels) in <top (required)>'
+
+  3) the course page overview displays title, tab links, stats, description, school, term, dates, milestones
+     Failure/Error: expect(page.find('.sidebar')).to have_content startf
+       expected to find text "2015-01-01" in "Details School: This university.foo Term: term 2015 Passcode: **** Start: 2014-12-31 End: 2015-12-30 Assignment Start: 2014-12-31 Assignment End: 2015-12-30 Campaigns: Spring 2016 Actions No available actions Milestones Week 1 - Complete blocky block"
+     # ./spec/features/course_page_spec.rb:151:in `block (3 levels) in <top (required)>'
+
+  4) Training 'Editing Basics' module lets the user go from start to finish
+     Failure/Error:
+       expect(TrainingModulesUsers.find_by(
+         user_id: 1,
+         training_module_id: training_module.id
+       ).completed_at).not_to be_nil
+     
+       expected: not nil
+            got: nil
+     # ./spec/features/training_tool_spec.rb:176:in `go_through_module_from_start_to_finish'
+     # ./spec/features/training_tool_spec.rb:165:in `block (4 levels) in <top (required)>'
+
+Finished in 34 minutes 2 seconds (files took 4.29 seconds to load)
+1181 examples, 4 failures, 12 pending
+
+Failed examples:
+
+rspec ./spec/features/admin_role_spec.rb:68 # Admin users adding a course to a campaign should make the course live
+rspec ./spec/features/course_creation_spec.rb:122 # New course creation and editing course workflow should allow the user to create a course
+rspec ./spec/features/course_page_spec.rb:125 # the course page overview displays title, tab links, stats, description, school, term, dates, milestones
+rspec ./spec/features/training_tool_spec.rb:164 # Training 'Editing Basics' module lets the user go from start to finish
+
+/home/refeedmain/.rvm/gems/ruby-2.3.1/gems/sentry-raven-2.7.1/lib/raven/instance.rb:112:in `capture_type': undefined method `[]=' for #<TrainingLoader::InvalidWikiContentError:0x0055b7d4fd4d78> (NoMethodError)
+        from /home/refeedmain/.rvm/gems/ruby-2.3.1/gems/sentry-raven-2.7.1/lib/raven/instance.rb:216:in `block in install_at_exit_hook'
+Coverage report generated for RSpec to /home/refeedmain/GitHub/WikiEduDashboard/coverage. 7397 / 7399 LOC (99.97%) covered.
+/home/refeedmain/GitHub/WikiEduDashboard/lib/data_cycle/constant_update.rb (coverage: 97.06%)
+yarn run v1.3.2
+$ jest
+ PASS  test/utils/course_utils.spec.js (7.664s)
+ PASS  test/utils/course_date_utils.spec.js (7.918s)
+ PASS  test/components/timeline/block.spec.jsx
+  ● Console
+
+    console.warn node_modules/react/lib/lowPriorityWarning.js:38
+      Warning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+
+ PASS  test/components/common/get_help_button.spec.jsx
+  ● Console
+
+    console.error node_modules/fbjs/lib/warning.js:33
+      Warning: Expandable: isMounted is deprecated. Instead, make sure to clean up subscriptions and pending requests in componentWillUnmount to prevent memory leaks.
+    console.error node_modules/fbjs/lib/warning.js:33
+      Warning: Expandable: isMounted is deprecated. Instead, make sure to clean up subscriptions and pending requests in componentWillUnmount to prevent memory leaks.
+    console.error node_modules/fbjs/lib/warning.js:33
+      Warning: Expandable: isMounted is deprecated. Instead, make sure to clean up subscriptions and pending requests in componentWillUnmount to prevent memory leaks.
+    console.error node_modules/fbjs/lib/warning.js:33
+      Warning: Expandable: isMounted is deprecated. Instead, make sure to clean up subscriptions and pending requests in componentWillUnmount to prevent memory leaks.
+
+ PASS  test/components/timeline/week.spec.jsx (13.793s)
+  ● Console
+
+    console.warn node_modules/react/lib/lowPriorityWarning.js:38
+      Warning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+
+ PASS  test/components/activity/activity_table.spec.jsx
+ PASS  test/components/activity/upload_table.spec.jsx
+ PASS  test/components/overview/course_type_selector.spec.jsx
+ PASS  test/components/course_creator/course_creator.spec.jsx
+  ● Console
+
+    console.warn node_modules/react/lib/lowPriorityWarning.js:38
+      Warning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+    console.warn node_modules/react/lib/lowPriorityWarning.js:38
+      Warning: Accessing createClass via the main React package is deprecated, and will be removed in React v16.0. Use a plain JavaScript class instead. If you're not yet ready to migrate, create-react-class v15.* is available on npm as a temporary, drop-in replacement. For more info see https://fb.me/react-create-class
+    console.error node_modules/fbjs/lib/warning.js:33
+      Warning: CourseCreator: isMounted is deprecated. Instead, make sure to clean up subscriptions and pending requests in componentWillUnmount to prevent memory leaks.
+    console.error node_modules/fbjs/lib/warning.js:33
+      Warning: TextInput: isMounted is deprecated. Instead, make sure to clean up subscriptions and pending requests in componentWillUnmount to prevent memory leaks.
+    console.error node_modules/fbjs/lib/warning.js:33
+      Warning: TextInput: isMounted is deprecated. Instead, make sure to clean up subscriptions and pending requests in componentWillUnmount to prevent memory leaks.
+    console.error node_modules/fbjs/lib/warning.js:33
+      Warning: DatePicker: isMounted is deprecated. Instead, make sure to clean up subscriptions and pending requests in componentWillUnmount to prevent memory leaks.
+    console.error node_modules/fbjs/lib/warning.js:33
+      Warning: DatePicker: isMounted is deprecated. Instead, make sure to clean up subscriptions and pending requests in componentWillUnmount to prevent memory leaks.
+    console.error node_modules/fbjs/lib/warning.js:33
+      Warning: TextAreaInput: isMounted is deprecated. Instead, make sure to clean up subscriptions and pending requests in componentWillUnmount to prevent memory leaks.
+    console.error node_modules/fbjs/lib/warning.js:33
+      Warning: TextInput: isMounted is deprecated. Instead, make sure to clean up subscriptions and pending requests in componentWillUnmount to prevent memory leaks.
+    console.error node_modules/fbjs/lib/warning.js:33
+      Warning: TextInput: isMounted is deprecated. Instead, make sure to clean up subscriptions and pending requests in componentWillUnmount to prevent memory leaks.
+    console.error node_modules/fbjs/lib/warning.js:33
+      Warning: TextInput: isMounted is deprecated. Instead, make sure to clean up subscriptions and pending requests in componentWillUnmount to prevent memory leaks.
+    console.error node_modules/fbjs/lib/warning.js:33
+      Warning: TextInput: isMounted is deprecated. Instead, make sure to clean up subscriptions and pending requests in componentWillUnmount to prevent memory leaks.
+
+ PASS  test/actions/block_actions.spec.js
+ PASS  test/components/common/checkbox.spec.jsx
+ PASS  test/components/articles/article.spec.jsx
+ PASS  test/components/common/course_navbar.spec.jsx
+  ● Console
+
+    console.warn node_modules/react/lib/lowPriorityWarning.js:38
+      Warning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+    console.warn node_modules/react/lib/lowPriorityWarning.js:38
+      Warning: Accessing createClass via the main React package is deprecated, and will be removed in React v16.0. Use a plain JavaScript class instead. If you're not yet ready to migrate, create-react-class v15.* is available on npm as a temporary, drop-in replacement. For more info see https://fb.me/react-create-class
+
+
+ PASS  test/components/students/student.spec.jsxc.jsx
+ PASS  test/components/students/student_list.spec.jsx (5.487s)
+ PASS  test/components/timeline/empty_week.spec.jsx
+  ● Console
+
+    console.warn node_modules/react/lib/lowPriorityWarning.js:38
+      Warning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+    console.warn node_modules/react/lib/lowPriorityWarning.js:38
+      Warning: Accessing createClass via the main React package is deprecated, and will be removed in React v16.0. Use a plain JavaScript class instead. If you're not yet ready to migrate, create-react-class v15.* is available on npm as a temporary, drop-in replacement. For more info see https://fb.me/react-create-class
+
+ PASS  test/utils/date_calculator.spec.js
+ PASS  test/components/training/slide_link.spec.jsx
+  ● Console
+
+    console.warn node_modules/react/lib/lowPriorityWarning.js:38
+      Warning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+    console.warn node_modules/react/lib/lowPriorityWarning.js:38
+      Warning: Accessing createClass via the main React package is deprecated, and will be removed in React v16.0. Use a plain JavaScript class instead. If you're not yet ready to migrate, create-react-class v15.* is available on npm as a temporary, drop-in replacement. For more info see https://fb.me/react-create-class
+
+ PASS  test/components/assignments/assignment.spec.jsx
+ PASS  test/components/overview/my_assignment.spec.jsx
+ PASS  test/components/common/notifications.spec.jsx
+  ● Console
+
+    console.error node_modules/fbjs/lib/warning.js:33
+      Warning: Notifications: isMounted is deprecated. Instead, make sure to clean up subscriptions and pending requests in componentWillUnmount to prevent memory leaks.
+    console.error node_modules/fbjs/lib/warning.js:33
+      Warning: Notifications: isMounted is deprecated. Instead, make sure to clean up subscriptions and pending requests in componentWillUnmount to prevent memory leaks.
+
+ PASS  test/components/training/slide_menu.spec.jsx
+  ● Console
+
+    console.warn node_modules/react/lib/lowPriorityWarning.js:38
+      Warning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+    console.warn node_modules/react/lib/lowPriorityWarning.js:38
+      Warning: Accessing createClass via the main React package is deprecated, and will be removed in React v16.0. Use a plain JavaScript class instead. If you're not yet ready to migrate, create-react-class v15.* is available on npm as a temporary, drop-in replacement. For more info see https://fb.me/react-create-class
+
+ PASS  test/components/articles/article_list.spec.jsx
+ PASS  test/components/articles/available_article.spec.jsx
+ PASS  test/actions/confirm_actions.spec.js
+ PASS  test/actions/course_actions.spec.js
+ PASS  test/utils/strings.spec.js
+ PASS  test/components/high_order/conditional.spec.jsx
+  ● Console
+
+    console.error node_modules/fbjs/lib/warning.js:33
+      Warning: Shallow renderer has been moved to react-test-renderer/shallow. Update references to remove this warning.
+
+ PASS  test/components/articles/articles_handler.spec.jsx
+ PASS  test/components/overview/course_stats.spec.jsx
+ PASS  test/utils/salesforce_utils.spec.js
+ PASS  test/utils/markdown_it.spec.js
+ PASS  test/components/activity/activity_table_row.spec.jsx
+ PASS  test/components/overview/milestones.spec.jsx
+ PASS  test/reducers/did_you_know.spec.js
+ PASS  test/components/overview/course_cloned_modal.spec.jsx
+  ● Console
+
+    console.warn node_modules/react/lib/lowPriorityWarning.js:38
+      Warning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+
+ PASS  test/components/common/final_article_checklist.spec.jsx
+ PASS  test/components/overview/my_articles.spec.jsx
+ PASS  test/main/smoketest.spec.jsx (6.77s)
+  ● Console
+
+    console.warn node_modules/react/lib/lowPriorityWarning.js:38
+      Warning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+    console.warn node_modules/react/lib/lowPriorityWarning.js:38
+      Warning: Accessing createClass via the main React package is deprecated, and will be removed in React v16.0. Use a plain JavaScript class instead. If you're not yet ready to migrate, create-react-class v15.* is available on npm as a temporary, drop-in replacement. For more info see https://fb.me/react-create-class
+
+ PASS  test/reducers/user_courses.spec.js
+ PASS  test/actions/chat_actions.spec.js
+ PASS  test/actions/assignment_actions.spec.js
+ PASS  test/components/articles/salesforce_media_buttons.spec.jsx
+ PASS  test/actions/alert_actions.spec.js
+ PASS  test/components/common/article_viewer.spec.jsx
+  ● Console
+
+    console.error node_modules/fbjs/lib/warning.js:33
+      Warning: Failed prop type: The prop `fetchArticleDetails` is marked as required in `ArticleViewer`, but its value is `undefined`.
+          in ArticleViewer (created by OnClickOutside(ArticleViewer))
+          in OnClickOutside(ArticleViewer)
+
+ PASS  test/components/common/modal.spec.jsx
+ PASS  test/components/overview/available_actions.spec.jsx
+ PASS  test/components/overview/tag_button.spec.jsx
+ PASS  test/components/activity/recent_uploads_handler.spec.jsx
+ PASS  test/components/common/loading.spec.jsx
+ PASS  test/components/activity/recent_activity_handler.spec.jsx
+  ● Console
+
+    console.warn node_modules/react/lib/lowPriorityWarning.js:38
+      Warning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+    console.warn node_modules/react/lib/lowPriorityWarning.js:38
+      Warning: Accessing createClass via the main React package is deprecated, and will be removed in React v16.0. Use a plain JavaScript class instead. If you're not yet ready to migrate, create-react-class v15.* is available on npm as a temporary, drop-in replacement. For more info see https://fb.me/react-create-class
+
+ PASS  test/reducers/ui.spec.js
+ PASS  test/surveys/modules/SurveyUtils.spec.js
+ PASS  test/components/overview/campaign_button.spec.jsx
+ PASS  test/components/enroll/enroll_card.spec.jsx
+
+Test Suites: 55 passed, 55 total
+Tests:       190 passed, 190 total
+Snapshots:   0 total
+Time:        34.421s
+Ran all test suites.
+--------------------------------------------------|----------|----------|----------|----------|----------------|
+File                                              |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+--------------------------------------------------|----------|----------|----------|----------|----------------|
+All files                                         |    45.47 |     37.1 |    38.77 |    45.89 |                |
+ app/assets/javascripts                           |    13.33 |      100 |        0 |    13.33 |                |
+  main.js                                         |    13.33 |      100 |        0 |    13.33 |... 20,21,22,23 |
+ app/assets/javascripts/actions                   |    35.62 |    22.22 |     15.6 |    35.51 |                |
+  alert_actions.js                                |    85.71 |      100 |       80 |    83.33 |             19 |
+  api_fail_action.js                              |    66.67 |      100 |      100 |    66.67 |              6 |
+  article_actions.js                              |        0 |      100 |        0 |        0 |    12,13,14,22 |
+  assignment_actions.js                           |      100 |      100 |      100 |      100 |                |
+  block_actions.js                                |    88.89 |      100 |       50 |    88.89 |             35 |
+  chat_actions.js                                 |       75 |      100 |       50 |       75 |           9,15 |
+  confirm_actions.js                              |      100 |      100 |      100 |      100 |                |
+  course_actions.js                               |    20.69 |       50 |     7.69 |    20.69 |... 125,127,133 |
+  course_creation_actions.js                      |       40 |      100 |        0 |       40 |          7,8,9 |
+  feedback_action.js                              |        0 |      100 |        0 |        0 |... 40,41,43,47 |
+  gradeable_actions.js                            |       40 |      100 |      100 |       40 |        6,15,24 |
+  index.js                                        |       75 |      100 |       50 |      100 |                |
+  notification_actions.js                         |      100 |      100 |      100 |      100 |                |
+  server_actions.js                               |       19 |        0 |    13.56 |    19.19 |... 224,225,226 |
+  ui_actions.js                                   |       75 |      100 |      100 |       75 |             15 |
+  user_courses_actions.js                         |       20 |      100 |        0 |       25 |         6,8,12 |
+  validation_actions.js                           |      100 |       50 |      100 |      100 |             25 |
+  week_actions.js                                 |    33.33 |      100 |        0 |    33.33 |     7,10,11,17 |
+ app/assets/javascripts/components                |    44.44 |    23.53 |    33.33 |    46.15 |                |
+  course.jsx                                      |    44.44 |    23.53 |    33.33 |    46.15 |... 189,190,191 |
+ app/assets/javascripts/components/activity       |    87.84 |    73.33 |       90 |     87.5 |                |
+  activity_table.jsx                              |     87.5 |    71.43 |    85.71 |    86.84 | 33,34,40,41,54 |
+  activity_table_row.jsx                          |    83.33 |    66.67 |      100 |    83.33 |          28,60 |
+  recent_activity_handler.jsx                     |      100 |      100 |      100 |      100 |                |
+  recent_uploads_handler.jsx                      |    77.78 |      100 |      100 |    77.78 |          33,34 |
+  upload_table.jsx                                |      100 |      100 |      100 |      100 |                |
+ app/assets/javascripts/components/articles       |    56.08 |    41.89 |    54.55 |    56.34 |                |
+  article.jsx                                     |       75 |       50 |      100 |       75 |          20,21 |
+  article_graphs.jsx                              |    33.33 |       25 |        0 |    33.33 |... 118,129,132 |
+  article_list.jsx                                |      100 |      100 |      100 |      100 |                |
+  articles_handler.jsx                            |     87.5 |       50 |      100 |     87.5 |             31 |
+  available_article.jsx                           |    65.22 |    41.67 |      100 |    68.18 |... 50,51,69,70 |
+  available_article_list.jsx                      |       40 |      100 |        0 |       50 |          19,30 |
+  available_articles.jsx                          |       55 |    43.75 |       50 |       55 |... 61,63,67,84 |
+  course_ores_plot.jsx                            |       40 |    28.57 |        0 |    38.89 |... 55,56,69,71 |
+  edit_size_graph.jsx                             |    16.67 |      100 |      100 |    16.67 |... 239,244,245 |
+  salesforce_media_buttons.jsx                    |      100 |      100 |      100 |      100 |                |
+  wp10_graph.jsx                                  |    16.67 |      100 |      100 |    16.67 |... 195,199,200 |
+ app/assets/javascripts/components/assignments    |       82 |    76.67 |    33.33 |    86.36 |                |
+  assignment.jsx                                  |      100 |    88.46 |      100 |      100 |       23,40,63 |
+  assignment_list.jsx                             |    52.63 |        0 |       20 |       60 |... 36,37,38,39 |
+ app/assets/javascripts/components/common         |    35.27 |    33.33 |    21.62 |    35.58 |                |
+  affix.jsx                                       |       50 |     8.33 |      100 |    57.14 |... 32,33,35,36 |
+  article_viewer.jsx                              |    13.51 |    13.33 |        0 |     13.7 |... 232,233,236 |
+  article_viewer_legend.jsx                       |    16.67 |        0 |        0 |    16.67 |... 22,29,30,33 |
+  calendar.jsx                                    |     1.25 |        0 |        0 |     1.33 |... 146,147,149 |
+  checkbox.jsx                                    |      100 |      100 |      100 |      100 |                |
+  confirm.jsx                                     |     8.33 |        0 |      100 |     8.33 |... 57,64,67,72 |
+  course_link.jsx                                 |      100 |      100 |      100 |      100 |                |
+  course_navbar.jsx                               |      100 |    83.33 |      100 |      100 |          31,72 |
+  date_picker.jsx                                 |    47.73 |    49.33 |       50 |    48.28 |... 353,354,366 |
+  feedback.jsx                                    |     4.11 |        0 |        0 |     4.29 |... 211,213,222 |
+  final_article_checklist.jsx                     |      100 |      100 |      100 |      100 |                |
+  get_help_button.jsx                             |     62.9 |    67.57 |    57.14 |    61.67 |... 147,170,176 |
+  list.jsx                                        |     87.5 |    79.17 |      100 |    86.67 |    70,71,72,74 |
+  loading.jsx                                     |      100 |      100 |      100 |      100 |                |
+  lookup.jsx                                      |       25 |    14.29 |      100 |       25 |... 39,40,41,59 |
+  lookup_select.jsx                               |    57.14 |       50 |        0 |    57.14 |       14,17,22 |
+  mainspace_checklist.jsx                         |     8.33 |        0 |      100 |     8.33 |... 35,36,38,58 |
+  modal.jsx                                       |      100 |      100 |      100 |      100 |                |
+  notifications.jsx                               |    76.47 |    33.33 |      100 |       75 |    32,33,34,40 |
+  peer_review_checklist.jsx                       |     8.33 |        0 |      100 |     8.33 |... 35,36,38,57 |
+  popover.jsx                                     |       80 |       50 |      100 |       80 |             17 |
+  text_area_input.jsx                             |    63.16 |     62.5 |      100 |    63.16 |... 3,58,83,101 |
+  text_input.jsx                                  |    76.92 |       75 |      100 |       80 | 38,39,59,60,98 |
+  weekday_picker.jsx                              |     5.43 |        0 |        0 |     5.68 |... 220,221,224 |
+ app/assets/javascripts/components/course_creator |    60.34 |    50.72 |    57.14 |    60.71 |                |
+  course_creator.jsx                              |       60 |    50.72 |       60 |    60.38 |... 207,208,320 |
+  course_level_selector.jsx                       |    66.67 |      100 |       50 |    66.67 |            5,6 |
+ app/assets/javascripts/components/enroll         |    64.71 |       35 |      100 |    64.71 |                |
+  enroll_card.jsx                                 |    64.71 |       35 |      100 |    64.71 |... 24,25,34,43 |
+ app/assets/javascripts/components/high_order     |     47.2 |    36.36 |    71.43 |    48.31 |                |
+  conditional.jsx                                 |      100 |      100 |      100 |      100 |                |
+  editable.jsx                                    |    48.48 |       48 |      100 |    48.48 |... 55,56,57,63 |
+  expandable.jsx                                  |      100 |       50 |      100 |      100 |             22 |
+  lookup_wrapper.jsx                              |       60 |      100 |      100 |       60 |    30,34,38,42 |
+  popover_button.jsx                              |    40.63 |    27.27 |    66.67 |       40 |... 57,60,61,64 |
+  popover_expandable.jsx                          |    45.45 |        0 |      100 |    55.56 |    23,29,30,34 |
+  reorderable.jsx                                 |    23.08 |        0 |       25 |       25 |... 83,84,85,90 |
+ app/assets/javascripts/components/overview       |     33.7 |       27 |    21.05 |    34.95 |                |
+  available_actions.jsx                           |    27.08 |    31.71 |        0 |    27.66 |... 131,132,145 |
+  campaign_button.jsx                             |    57.14 |      100 |    33.33 |    66.67 |          11,13 |
+  course_cloned_modal.jsx                         |    31.58 |    22.22 |        0 |    33.96 |... 217,228,354 |
+  course_stats.jsx                                |    81.82 |     87.5 |      100 |    81.82 |          26,29 |
+  course_stats_download_modal.jsx                 |     8.33 |        0 |      100 |     8.33 |... 31,32,33,35 |
+  course_type_selector.jsx                        |       90 |    78.57 |      100 |       90 |          56,57 |
+  description.jsx                                 |    28.57 |      100 |        0 |    33.33 |    21,22,23,27 |
+  details.jsx                                     |     5.71 |        0 |        0 |     6.06 |... 359,360,361 |
+  greet_students_button.jsx                       |       60 |       50 |      100 |       60 |          13,22 |
+  inline_users.jsx                                |     5.56 |        0 |        0 |     5.88 |... 38,41,42,44 |
+  milestones.jsx                                  |    90.48 |    66.67 |      100 |    94.74 |             27 |
+  my_articles.jsx                                 |    84.62 |       50 |        0 |    84.62 |          31,45 |
+  my_assignment.jsx                               |    62.07 |    58.33 |      100 |    62.07 |... 60,62,65,66 |
+  overview_handler.jsx                            |    77.27 |    61.54 |      100 |    77.27 |52,59,70,80,100 |
+  salesforce_link.jsx                             |    27.27 |    33.33 |      100 |    27.27 |... 31,32,33,41 |
+  submitted_selector.jsx                          |     7.14 |        0 |      100 |     7.14 |... 33,37,38,63 |
+  syllabus-upload.jsx                             |        4 |        0 |        0 |     4.35 |... 50,56,57,58 |
+  tag_button.jsx                                  |    57.14 |      100 |    33.33 |    66.67 |          11,13 |
+  this_week.jsx                                   |       10 |        0 |        0 |    10.53 |... 60,77,84,86 |
+  timeline_toggle.jsx                             |     7.14 |        0 |      100 |     7.14 |... 33,37,38,55 |
+ app/assets/javascripts/components/revisions      |     7.89 |     6.67 |        0 |     7.89 |                |
+  diff_viewer.jsx                                 |     7.89 |     6.67 |        0 |     7.89 |... 225,226,237 |
+ app/assets/javascripts/components/students       |    42.21 |    32.68 |    42.86 |    41.27 |                |
+  assign_button.jsx                               |    19.39 |    20.29 |       20 |    19.79 |... 278,301,308 |
+  assign_cell.jsx                                 |    68.42 |    73.33 |      100 |    66.67 |... 33,34,50,54 |
+  enroll_button.jsx                               |    36.36 |    31.43 |       20 |     37.5 |... 138,194,195 |
+  student.jsx                                     |    80.95 |    38.46 |      100 |       80 |    27,39,40,46 |
+  student_drawer.jsx                              |       50 |    16.67 |    66.67 |    38.46 |... 60,61,70,78 |
+  student_list.jsx                                |    84.85 |    72.73 |    83.33 |    83.87 | 30,48,63,64,65 |
+  training_status.jsx                             |       20 |        0 |        0 |       20 |... 11,17,23,31 |
+ app/assets/javascripts/components/timeline       |    58.67 |    57.69 |    33.33 |    60.69 |                |
+  block.jsx                                       |    67.39 |       70 |      100 |    68.89 |... 0,61,63,105 |
+  block_type_select.jsx                           |       90 |       50 |      100 |       90 |             45 |
+  empty_week.jsx                                  |    92.86 |       90 |      100 |    92.86 |             22 |
+  orderable_block.jsx                             |    33.33 |        0 |      100 |    33.33 |          22,24 |
+  training_modules.jsx                            |    18.92 |     9.09 |        0 |    20.59 |... ,91,100,116 |
+  week.jsx                                        |     67.5 |    71.43 |       50 |    69.23 |... 9,90,98,117 |
+ app/assets/javascripts/components/uploads        |    70.59 |       50 |      100 |    70.59 |                |
+  upload.jsx                                      |    70.59 |       50 |      100 |    70.59 |  7,22,23,28,38 |
+ app/assets/javascripts/constants                 |      100 |      100 |      100 |      100 |                |
+  article_details.js                              |      100 |      100 |      100 |      100 |                |
+  did_you_know.js                                 |      100 |      100 |      100 |      100 |                |
+  feedback.js                                     |      100 |      100 |      100 |      100 |                |
+  index.js                                        |      100 |      100 |      100 |      100 |                |
+  need_help_alert.js                              |      100 |      100 |      100 |      100 |                |
+  ui.js                                           |      100 |      100 |      100 |      100 |                |
+  user_courses.js                                 |      100 |      100 |      100 |      100 |                |
+ app/assets/javascripts/mixins                    |    43.33 |    31.58 |      100 |    46.43 |                |
+  input_mixin.js                                  |    43.33 |    31.58 |      100 |    46.43 |... 48,50,70,74 |
+ app/assets/javascripts/reducers                  |     67.5 |       80 |      100 |     67.5 |                |
+  article_details.js                              |       50 |    66.67 |      100 |       50 |         8,9,10 |
+  did_you_know.js                                 |      100 |      100 |      100 |      100 |                |
+  feedback.js                                     |       25 |       40 |      100 |       25 |... 19,22,23,24 |
+  index.js                                        |      100 |      100 |      100 |      100 |                |
+  need_help_alert.js                              |      100 |      100 |      100 |      100 |                |
+  ui.js                                           |    85.71 |    83.33 |      100 |    85.71 |             13 |
+  user_courses.js                                 |      100 |      100 |      100 |      100 |                |
+ app/assets/javascripts/stores                    |    59.74 |    45.03 |    60.27 |    60.31 |                |
+  article_store.js                                |      100 |      100 |      100 |      100 |                |
+  assignment_store.js                             |      100 |      100 |      100 |      100 |                |
+  block_store.js                                  |    73.96 |       50 |    76.92 |    74.73 |... 146,147,148 |
+  campaign_store.js                               |      100 |      100 |      100 |      100 |                |
+  chat_store.js                                   |      100 |      100 |      100 |      100 |                |
+  confirmation_store.js                           |      100 |      100 |      100 |      100 |                |
+  course_attributes_store.js                      |       50 |      100 |       50 |       50 |        6,14,22 |
+  course_store.js                                 |    57.33 |    44.12 |     62.5 |    57.35 |... 125,130,131 |
+  gradeable_store.js                              |    22.81 |     5.56 |       20 |    23.21 |... 101,103,104 |
+  lookup_store.js                                 |    57.14 |     37.5 |    33.33 |       60 |... 35,36,41,42 |
+  notification_store.js                           |    71.11 |       65 |      100 |    71.43 |... 3,93,99,100 |
+  recent_uploads_store.js                         |    42.86 |        0 |        0 |    46.15 |... 21,23,24,25 |
+  revision_store.js                               |      100 |      100 |      100 |      100 |                |
+  stock_store.js                                  |    56.82 |    35.48 |    66.67 |    57.83 |... 154,158,166 |
+  tag_store.js                                    |      100 |      100 |      100 |      100 |                |
+  training_status_store.js                        |      100 |      100 |      100 |      100 |                |
+  ui_store.js                                     |    93.75 |       75 |      100 |    93.75 |             11 |
+  user_id_store.js                                |       50 |      100 |       50 |       50 |              4 |
+  user_store.js                                   |      100 |      100 |      100 |      100 |                |
+  validation_store.js                             |    65.85 |     62.5 |      100 |       65 |... 44,50,70,71 |
+  week_store.js                                   |     38.3 |       10 |    16.67 |    39.13 |... 80,81,83,84 |
+ app/assets/javascripts/surveys/modules           |       60 |      100 |        0 |       75 |                |
+  SurveyUtils.js                                  |       60 |      100 |        0 |       75 |             13 |
+ app/assets/javascripts/training/actions          |       40 |      100 |      100 |       40 |                |
+  training_actions.js                             |       40 |      100 |      100 |       40 |        6,15,24 |
+ app/assets/javascripts/training/components       |    50.81 |    43.08 |    63.64 |    50.44 |                |
+  quiz.jsx                                        |     7.69 |        0 |        0 |     7.69 |... 62,63,64,83 |
+  slide_link.jsx                                  |      100 |       50 |      100 |      100 |             33 |
+  slide_menu.jsx                                  |    88.24 |    71.43 |      100 |    93.75 |             23 |
+  training_slide_handler.jsx                      |    51.39 |    45.83 |    66.67 |       50 |... 187,188,200 |
+ app/assets/javascripts/training/stores           |    25.71 |     3.13 |       10 |    28.57 |                |
+  training_store.js                               |    25.71 |     3.13 |       10 |    28.57 |... 124,126,128 |
+ app/assets/javascripts/utils                     |    45.38 |    53.48 |    40.31 |    45.53 |                |
+  api.js                                          |    20.14 |     8.33 |    21.05 |       20 |... 829,833,834 |
+  course_date_utils.js                            |    71.17 |     50.6 |    88.89 |       73 |... 188,198,202 |
+  course_utils.js                                 |       95 |    89.19 |      100 |    98.28 |             85 |
+  date_calculator.js                              |      100 |      100 |      100 |      100 |                |
+  markdown_it.js                                  |    91.67 |    83.33 |      100 |    91.67 |             21 |
+  salesforce_utils.js                             |      100 |      100 |      100 |      100 |                |
+  strings.js                                      |      100 |      100 |      100 |      100 |                |
+  user_utils.js                                   |       40 |       50 |       50 |    41.38 |... 28,34,35,41 |
+ public/assets/javascripts                        |    39.28 |    26.32 |    43.75 |    39.31 |                |
+  i18n.js                                         |    39.28 |    26.32 |    43.75 |    39.31 |... 1,1039,1056 |
+ test                                             |      100 |      100 |      100 |      100 |                |
+  customUtils.js                                  |      100 |      100 |      100 |      100 |                |
+  testHelper.js                                   |      100 |      100 |      100 |      100 |                |
+--------------------------------------------------|----------|----------|----------|----------|----------------|
+Done in 36.94s.
